@@ -16,6 +16,12 @@ public class Vehicle {
         wheels=w;
         color=c;
     }
+    public int getWheels(){
+        return wheels;
+    }
+    public void setWheels(int w){
+        wheels=w;
+    }
     public String toString(){
         String str= "The "+name+" vehicle has a color of "+color+ " and has "+ wheels +" wheels.";
         return str;
