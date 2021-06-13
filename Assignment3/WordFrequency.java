@@ -39,7 +39,7 @@ public static void main(String[] args) {
 try{
 int i;
 ArrayList<WordFrequency> wordList=new ArrayList<WordFrequency>();//arraylist to store the list of words
-File f=new File("./samplefile.txt");//open file
+File f=new File("samplefile.txt");//open file
 Scanner sc=new Scanner(f);
 //iterate until file has no more words
 while(sc.hasNext())
