@@ -1,4 +1,4 @@
-package Ass3;
+package trials;
 
 
 import java.io.File;
@@ -17,7 +17,7 @@ import java.util.Scanner;
  *
  * @author Andy Dalton
  */
-public class WordFreq {
+public class WordFrequency {
 /**
  * Private class for storing word/count pairs and implementing
  * sorting logic.
@@ -54,7 +54,7 @@ return value;
 private String filename;
 private Map<String, WordCounter> wordCountMap;
 
-public WordFreq(String filename) {
+public WordFrequency(String filename) {
  this.filename = filename;
  this.wordCountMap = new HashMap<String, WordCounter>();
  }
@@ -92,7 +92,7 @@ while (scanner.hasNext()) {
     
     public static void main(String[] args) {
     try {
-     WordFreq wordFreq = new WordFreq("/home/mbote-joseph/Desktop/Programming/java/Assignment3/samplefile.txt");
+        WordFrequency wordFreq = new WordFrequency("/home/mbote-joseph/Desktop/Programming/java/Assignment3/samplefile.txt");
     wordFreq.scanAndSort();
      wordFreq.print();
      } catch (FileNotFoundException ex) {
