@@ -1,7 +1,9 @@
 {
     "java.project.sourcePaths": [
+        "inheritance",
+        "Labs2",
         "Final/Final",
         "Exam1",
-        "inheritance"
+        "Labs3"
     ]
 }
